@@ -4,7 +4,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "babel:build": "babel src -d lib",
+    "babel:build": "babel src/babel -d lib",
     "webpack:build": "webpack"
   },
   "devDependencies": {
