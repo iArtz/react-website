@@ -1,4 +1,4 @@
-const LikeButtonX = () => {
+const LikeButton = () => {
   const [count, setCount] = React.useState(0)
 
   const clickHandler = () => {
@@ -13,4 +13,4 @@ const LikeButtonX = () => {
   )
 }
 
-ReactDOM.render(<LikeButtonX />, document.querySelector('#like_button'))
+export default LikeButton

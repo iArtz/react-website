@@ -7,8 +7,7 @@
     <title>React - Website</title>
   </head>
   <body>
-    <div id="like_button_container"></div>
-    <div id="like_button"></div>
+    <div id="app"></div>
     <script
       src="https://unpkg.com/react@17/umd/react.production.min.js"
       crossorigin
@@ -18,7 +17,21 @@
       crossorigin
     ></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-    <script src="src/components/like_button.js"></script>
-    <script src="src/components/likeButton.js" type="text/babel"></script>
+    <script
+      src="src/components/likeButton.js"
+      data-plugins="transform-es2015-modules-umd"
+      type="text/babel"
+    ></script>
+    <script
+      src="src/containers/App.js"
+      data-plugins="transform-es2015-modules-umd"
+      type="text/babel"
+    ></script>
+    <script
+      data-plugins="transform-es2015-modules-umd"
+      src="src/index.js"
+      type="text/babel"
+      data-type="module"
+    ></script>
   </body>
 </html>
