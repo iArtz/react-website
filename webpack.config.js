@@ -4,7 +4,7 @@ const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const config = {
-  mode: 'development',
+  mode: 'production',
   entry: './src/webpack/index.js',
   output: {
     filename: 'main.js',
