@@ -8,14 +8,17 @@
   </head>
   <body>
     <div id="like_button_container"></div>
+    <div id="like_button"></div>
     <script
-      src="https://unpkg.com/react@17/umd/react.development.js"
+      src="https://unpkg.com/react@17/umd/react.production.min.js"
       crossorigin
     ></script>
     <script
-      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
       crossorigin
     ></script>
-    <script src="like_button.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="src/components/like_button.js"></script>
+    <script src="src/components/likeButton.js" type="text/babel"></script>
   </body>
 </html>
