@@ -1,3 +1,5 @@
+import React from 'react'
+
 import LikeButton from '../components/likeButton'
 
 const App = () => {
